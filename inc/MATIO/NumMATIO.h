@@ -17,7 +17,7 @@ public:
 
     void GetDimension(vector<mwSize>& dim);
 
-	void SetFilePath(char* file_path)
+	void SetFilePath(const char* file_path)
 	{ m_file_path = file_path; };
 
 	void SetVarName(char* varname)
